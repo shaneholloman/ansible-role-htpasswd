@@ -1,5 +1,5 @@
 ---
-# # Note: This playbook is built to work on Debian-derivative Linux OSes.
+# Note: This playbook is built to work on Debian derived Linux distros.
 - name: Converge
   hosts: all
   become: true

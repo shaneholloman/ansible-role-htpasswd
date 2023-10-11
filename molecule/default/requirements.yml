@@ -1,3 +1,5 @@
 ---
-- src: shaneholloman.apache
-- src: shaneholloman.nginx
+- name: shaneholloman.apache
+  src: https://github.com/shaneholloman/ansible-role-apache
+- name: shaneholloman.nginx
+  src: https://github.com/shaneholloman/ansible-role-nginx

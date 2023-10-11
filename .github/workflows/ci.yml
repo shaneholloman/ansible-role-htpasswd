@@ -44,7 +44,7 @@ jobs:
         include:
           - distro: rockylinux8
             playbook: apache.yml
-          - distro: ubuntu1804
+          - distro: ubuntu2004
             playbook: nginx.yml
           - distro: debian11
             playbook: nginx.yml

@@ -1,5 +1,5 @@
 ---
-# Note: This playbook is built to work on Red Hat-derivative Linux OSes.
+# Note: This playbook is built to work on RedHat derived Linux distros.
 - name: Converge
   hosts: all
   become: true

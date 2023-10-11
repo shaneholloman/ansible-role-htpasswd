@@ -1,6 +1,6 @@
 # Ansible Role: htpasswd
 
-[![CI](https://github.com/shaneholloman-org/ansible-role-htpasswd/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman-org/ansible-role-htpasswd/actions/workflows/ci.yml)
+[![CI](https://github.com/shaneholloman/ansible-role-htpasswd/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-htpasswd/actions/workflows/ci.yml)
 
 An Ansible Role that installs `htpasswd` and allows easy configuration of `htpasswd` authentication files and credentials (used for HTTP basic authentication with webservers like Apache and Nginx) on Linux-based servers.
 
@@ -134,4 +134,3 @@ MIT / BSD
 ## Author Information
 
 This role was created in 2023
-
