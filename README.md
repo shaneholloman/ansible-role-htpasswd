@@ -4,6 +4,8 @@
 
 An Ansible Role that installs `htpasswd` and allows easy configuration of `htpasswd` authentication files and credentials (used for HTTP basic authentication with webservers like Apache and Nginx) on Linux-based servers.
 
+This role is in development. Please don't depend on this role unless you know what you're doing.
+
 ## Requirements
 
 None.
