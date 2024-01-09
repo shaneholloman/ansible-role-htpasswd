@@ -83,7 +83,7 @@ None.
 
   pre_tasks:
     - name: Update apt cache.
-      apt: update_cache=yes cache_valid_time=600
+      ansible.builtin.apt: update_cache=yes cache_valid_time=600
       when: ansible_os_family == 'Debian'
 
   roles:
@@ -121,7 +121,7 @@ None.
 
   pre_tasks:
     - name: Update apt cache.
-      apt: update_cache=yes cache_valid_time=600
+      ansible.builtin.apt: update_cache=yes cache_valid_time=600
       when: ansible_os_family == 'Debian'
 
   roles:
