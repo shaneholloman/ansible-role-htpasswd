@@ -1,4 +1,4 @@
-# Ansible Role: htpasswd
+# Ansible Role: `htpasswd`
 
 [![CI](https://github.com/shaneholloman/ansible-role-htpasswd/actions/workflows/ci.yml/badge.svg)](https://github.com/shaneholloman/ansible-role-htpasswd/actions/workflows/ci.yml)
 
@@ -14,13 +14,13 @@ None.
 
 Available variables are listed below, along with default values (see `defaults/main.yml`):
 
-```yaml
+```yml
 htpasswd_nolog: true
 ```
 
 Whether to show htpasswd credentials in Ansible's log output. Should remain `true` unless you're debugging something.
 
-```yaml
+```yml
 htpasswd_credentials:
   - path: /etc/nginx/passwdfile
     name: johndoe
@@ -39,7 +39,7 @@ htpasswd_credentials:
 
 A list of credentials to be generated (or removed) in the respective files defined by the `path` key for each dict. All parameters except `mode` are required (`mode` defaults to `'u+rw,g+r'` (`0640` in octal)).
 
-```yaml
+```yml
 htpasswd_required_packages:
   - apache2-utils
   - python3-passlib
@@ -55,7 +55,7 @@ None.
 
 ### Apache Example
 
-```yaml
+```yml
 ---
 - hosts: apache-server
 
@@ -93,7 +93,7 @@ None.
 
 ### Nginx Example
 
-```yaml
+```yml
 ---
 - hosts: nginx-server
 
@@ -131,7 +131,7 @@ None.
 
 ## License
 
-MIT / BSD
+Unlicense
 
 ## Author Information
 

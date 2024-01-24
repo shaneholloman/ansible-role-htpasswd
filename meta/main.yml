@@ -1,13 +1,12 @@
 ---
-dependencies: []
-
 galaxy_info:
   role_name: htpasswd
   author: shaneholloman
   description: htpasswd installation and helper role for Linux servers.
   company: "shaneholloman"
-  license: "license (BSD, MIT)"
-  min_ansible_version: "2.10"
+  license: "license (Unlicense)"
+  min_ansible_version: "2.12"
+
   platforms:
     - name: Fedora
       versions:
@@ -18,6 +17,7 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
+
   galaxy_tags:
     - system
     - web
@@ -30,3 +30,5 @@ galaxy_info:
     - htpasswd
     - htaccess
     - security
+
+dependencies: []
